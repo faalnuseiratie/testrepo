@@ -1,0 +1,15 @@
+# Solution 1:
+a = 10
+b = 20
+print(a*b)
+
+# Solution 2:
+a = 203
+solution = a%10
+print(solution)
+
+# Solution 3:
+f = input("Type the amount of Fahrenheit degrees, please ")
+f = float(f)
+c = (f-32)*5/9
+print("The amount of Celsius degrees for the given value is", c)
